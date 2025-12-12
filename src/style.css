@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'line_seed_sans_th';
+}
+
+.gradient {
+    background: linear-gradient(183deg, rgba(253, 80, 1, 1) 0%, rgba(230, 218, 212, 1) 100%);
+}
+
+/* Remove padding only for header container */
+.bg-white .MuiContainer-root {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.css-hhdjsd-MuiContainer-root {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slideUp {
+    animation: slideUp 0.35s ease-out;
+}
