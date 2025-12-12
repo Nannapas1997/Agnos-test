@@ -1,4 +1,4 @@
-# Adnos Project
+# Agnos Project
 > วิธีการติดตั้ง
 1. git clone https://github.com/Nannapas1997/Agnos-test/tree/master
 2. เปิด terminal แล้วพิมพ์ npm install
