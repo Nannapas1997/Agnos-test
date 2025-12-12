@@ -203,14 +203,10 @@ function App() {
         <Container maxWidth="xl">
 
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-10 px-4 md:px-0">
-
-            {/* LEFT TEXT */}
             <p className="text-white text-[24px] sm:text-[28px] md:text-[36px] lg:text-[45px] leading-snug italic md:ml-0 lg:ml-14 text-center md:text-left flex-1">
               "There is no sincere love than the love of food."
               <span className="not-italic font-medium block sm:inline mt-2 sm:mt-0"> — George Bernard Shaw</span>
             </p>
-
-            {/* RIGHT IMAGE - Always on the right */}
             <div className="flex justify-end flex-shrink-0 w-full md:w-auto relative bottom-15">
               <img
                 src="/cake.png"
